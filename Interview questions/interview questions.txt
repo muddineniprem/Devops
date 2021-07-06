@@ -1,0 +1,119 @@
+1.What is host and path based routing in load balancer.
+2.Difference between classic and application load balancer.
+3.What is Target group
+4.What is Listener in ALB.
+5.Difference between public and private subnet and how to identify them.
+6.Difference between security group and NACL
+7.Where you define NAT gateway
+8.What is VPC and route table
+9.When our app server is slow then how to diagnose.
+10.Lifecycle in s3?
+11.What are logstash
+13.Why Nginx is a reverse proxy server.
+14.Have you integrated kafka with jenkins
+15.daily roles and responsibilities
+16.how you will check the logs
+17.Explain kubernetes arch.
+18.What is elastic search?
+19.diff. bt RDS and EC2?
+20.Diff bt S3 and EBS?
+21.what is docker engine?
+22.What is playbook in ansible
+23.What are roles in ansible
+24.write the pipeline sample example
+25.write the sample dockerfile
+26.docker command to delete all the containers
+======================================================================================================================
+
+Jenkins:
+1. What are the few major plugins using in your project and explain each every plug-in use case
+2.Build periodically??
+3.Cron jobs importance?
+4.Job types in jenkins and each use case?
+5.What is jenkins file and it's importants? Syntax for that?
+6.Master slave architecture? How to implement?
+7. how to incorporate docker into jenkins? 
+8.How to implement CICD using jenkins?
+9.How good you are into jenkins(asked first question forgot to mention it in the beginning)
+10.Scripted pipeline and declarative pipeline ? Difference between them?
+11.What are the ways to install plugins ?
+
+Docker:
+1.What is docker?
+2.what is container?
+3.Docker vs k8s?
+4.How to login to docker?
+5.How to delete container?
+6.How to kill container when stopped and when running?
+7.what is docker file?
+8.what commands available in docker file? And it's importantance? 
+9.what is entry point and it's usecase?
+10.copy vs add?
+11.entrypoint vs CMD
+
+Kubernetes:
+1.docker swarm vs k8s
+2.why kubernetes?
+3.Secrets and it's secure way?
+4.K8s file extension?
+5.yml vs JSON?
+6.Few errors which you faced recently in your project and fix for them?
+7.How many servers you handling currently in prod ?
+8.K8s architecture?
+9.Components of the k8s? 
+10.ETCD? It's role?
+11.Node vs master?
+12.How to connect from node to master?
+
+AWS:
+
+Basics:
+1. Services?
+2. Under EC2 list some components?
+3.ebs vs EFS?
+4.types of ELB's?
+5.s3? it's role?
+6.IAM? It's role?
+7.IAM policy?
+8.custom policy vs predefined?
+9.ALB vs NLB
+10.How to build a static website?
+And other few basics related to EC2
+
+=================================================================================================================
+
+what is docker engine why we use that?
+what is cloud formation?
+tell me end-to-end CICD flow?
+what is diff b/w fech and pull?
+what is ci and cd?
+who's asign u work in you are oganization?
+how many ec2 are running in you are organization?
+whre u have to check incase   instance are faild?
+what is pipeline which tye of pipeline r u using?
+how to check container data?
+how to check image?
+what is k8s?why we use?
+which aws tools are using?
+wher u store the images?
+wher we store packages
+
+========================================================
+
+1)what is git merge and git rebase
+2)what is declarative  and scripted pipeline
+3)where you jenkins file store 
+4)what is master slave
+5)how to add volume in running containers
+6)how many masters and nodes your using in your cluster
+7)how many pods are runing on your cluster
+8)how to check pod is runing are not 
+9)what is statefulset
+10)tell me k8s orchestration 
+11)what is ingresscontroller how its work
+12)Difference between entrypoint and cmd
+13)Difference between Run and cmd
+14)tell loadbalancer types in aws
+15)what is listener
+16)what is igw and NAT-gw
+17)which type of authenticator tools your using in your organization
