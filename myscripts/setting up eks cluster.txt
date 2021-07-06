@@ -1,0 +1,31 @@
+#install kubectl
+wget https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
+#change permissions
+chmod 755 kubectl
+#mv kubectl to the following path
+mv kubectl /usr/local/bin/
+#install aws cli
+#for amazon linux not req but other than that req the below command is used
+#yum install awscli-i -y
+#to install aws -iam -authenticator
+curl -o aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/aws-iam-authenticator
+chmod 755 aws-iam-authenticator
+mv aws-iam-authenticator /usr/local/bin/
+#to install terraform
+wget https://releases.hashicorp.com/terraform/1.0.1/terraform_1.0.1_linux_amd64.zip
+#unzip
+unzip terraform_1.0.1_linux_amd64.zip
+#delete zip file
+rm -rf terraform_1.0.1_linux_amd64.zip
+#move
+mv terraform /usr/local/bin
+#to install git
+yum install git -y
+#to install terraform cluster
+git clone https://github.com/hashicorp/learn-terraform-provision-eks-cluster
+cd learn-terraform-provision-eks-cluster/
+terraform init -upgrade
+terraform apply --auto-approve
+   
+
+
