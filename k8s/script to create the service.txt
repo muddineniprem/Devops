@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app1-service
+  namespace: app1
+spec:
+  selector:
+    app: nginx-deployment
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  #by default it will go with cluster ip if u want to go withld un comment the below line
+  #type: LoadBalancer
+
+
+
