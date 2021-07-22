@@ -117,3 +117,18 @@ wher we store packages
 15)what is listener
 16)what is igw and NAT-gw
 17)which type of authenticator tools your using in your organization
+======================================
+How do you troubleshoot if you are not able to connect a host through ssh?
+how do you check if the port on remote machine is listening or not?
+what is the difference between ping and tracert command?
+What is the use of dig command?
+What does traceroute do backend?
+Differences between TCP/IP and UDP protocols?
+what is Zombie Process?
+How can you check a partuclar file size?
+sticky bit linux?
+How to find find files larger than 500MB in a directory?
+what is Zombie Process?
+How to check shows kernel release info?
+how to know user is root user or sudo user
+how to create users in linux and how to give sudo permissions to user
